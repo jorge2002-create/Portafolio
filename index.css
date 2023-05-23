@@ -1,0 +1,127 @@
+/* Estilo general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo del encabezado */
+  
+  header {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 80px;
+    background-color:#609ED4;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  /* Estilo del contenido principal */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilo del cuadro de texto */
+  
+  .text-area {
+    display: block;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+    font-size: 16px;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+  }
+  
+  .mensaje {
+    display: block;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 120%;
+    height: 400px;
+    font-size: 16px;
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+  }
+  
+  /* Estilo del texto de ayuda */
+  
+  h6 {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #495057;
+    text-align: center;
+  }
+  
+  /* Estilo del botón */
+  
+  .mensaje_recibido button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .mensaje_recibido button:hover {
+    background-color: #444;
+  }
+  
+  /* Estilo del mensaje enviado */
+  
+  .mensaje_enviado {
+    margin-top: 20px;
+  
+  }
+  
+  .btn-copiar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-copiar:hover {
+    background-color: #ddd;
+  }
+  

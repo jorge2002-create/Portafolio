@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>ENCRIPTADOR</title>
+    
+</head>
+
+<header>
+    <img class="logo" src="imagenes/Logo.png" alt="logo de alura" >
+</header>
+
+    <main>
+        <section class="mensaje_recibido">
+                <textarea class="text-area" cols="30" rows="20" placeholder="Ingrese el texto aqui"></textarea>
+                <div>   
+                    <h6>Solo letras minúsculas y sin acentos</h6>  
+                </div>
+          
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button class="btn-desencriptar" onclick=" btnDesencriptar()"> Desencriptar </button>
+            </div>
+        </section>
+
+        <section class="mensaje_enviado">
+            <textarea class="mensaje" id="mensaje2" cols="30" rows="20"></textarea>
+              
+            <div>
+                <button class="btn-copiar" onclick="copiarTexto()" >Copiar</button>
+            </div>
+        </section>    
+            
+          
+        <script src="encriptador.js"></script>
+        
+    
+    </main>
+
+</html>
